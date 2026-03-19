@@ -909,7 +909,7 @@ fbq('track', 'InitiateCheckout');
             },
             body: JSON.stringify(formData),
           });
-
+fbq('track', 'Lead');
           modal.classList.add('active');
           form.reset();
           areaSelect.disabled = true;
